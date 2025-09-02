@@ -1,17 +1,15 @@
 <?php
 
-echo "Hello World!\n";
-echo ("Hello World\n");
+$array = array(1, 2, 3, 4);
+$array = [1, 2, 3, 4];
+$array = [1, true, [1, 'hobo']];
 
-$var = 1;
-echo $var;
-echo 'var is $var';
-echo "\nvar is $var\n";
+$array = [
+    6 => 'sss',
+    'name' => 'sigma',
+    'thingy' => 'baller'
+];
+var_dump($array);
 
-// TEKSTI LIITMINE .'iga
 
-echo $var . "\n";
 
-$num = 1;
-$num = $num + 1;
-var_dump($num);
